@@ -132,9 +132,17 @@
 - **Rock pools and the sea boat** sit along the new curved shoreline.
 - **Islands made before this update** have their south-east coast redrawn. Every pen, fence, sign, bowl and decoration there is kept exactly where it was.
 
+### Version 5: the solar eclipse
+- **New opening scene.** A new story chapter starts with Ranger Axl and the baby animals playing at the Ranger Station. Then the Moon slides in front of the Sun, it goes dark, the animals get scared and run off to hide in their landscapes. The scene is read aloud and can be skipped.
+- **Saving a baby takes 3 questions.** Carry the baby to the orange Safe Tent and answer 3 questions to keep it safe. That opens the gate. Ranger ? signs still ask 1 question each.
+- **Signs come first in the Sanctuary.** The sign is ready in your hand, and the tip says STEP 1: plant a sign, STEP 2: build a fence around it.
+- **Every sign has three jobs before it goes in:** paint the animal, spell its name, then give it a nickname.
+- **Building is easier.** A one-time starter pack (20 wood, 12 fences, 2 signs, 2 bowls), and digging ground blocks gives 2 at a time.
+- **⚡ Quick Supplies.** Every home has a button to spend 💎 treasures on what is missing: ground blocks, dens and plants, water, troughs, food and fences.
+
 ### Axl's edition
 - **Ranger Axl has blonde hair.**
-- **Birthday party (13 November):** opening the game shows a full-screen celebration. It has a cake with one candle for each year, balloons, confetti, animal friends, and Ranger Axl in a party hat. Happy Birthday plays and the screen is read out loud.
+- **Birthday party (13 November):** opening the game shows a big "HAPPY 9TH BIRTHDAY AXL!" (the number goes up each year) with "love from Uncle Brad". It has a cake with one candle for each year, balloons and confetti. Elephant, fox, kangaroo, puffin and lion cubs walk in and dance around Ranger Axl in his party hat. A brass fanfare with party horns plays and the message is read out loud.
 - **Birthday presents, once a year:** 9 💎 treasures, 9p and a Birthday Star sticker.
 - **Preview:** the celebration also appears on 12 November 2026, so it can be tried out the day before.
 - **Separate save:** Axl's edition keeps its own save, apart from any other copy of the game in the same browser.
