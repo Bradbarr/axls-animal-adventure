@@ -131,3 +131,10 @@
 - **The beach now curves around a big round bay** in the south-east, instead of the old right-angled strip.
 - **Rock pools and the sea boat** sit along the new curved shoreline.
 - **Islands made before this update** have their south-east coast redrawn. Every pen, fence, sign, bowl and decoration there is kept exactly where it was.
+
+### Axl's edition
+- **Ranger Axl has blonde hair.**
+- **Birthday party (13 November):** opening the game shows a full-screen celebration. It has a cake with one candle for each year, balloons, confetti, animal friends, and Ranger Axl in a party hat. Happy Birthday plays and the screen is read out loud.
+- **Birthday presents, once a year:** 9 💎 treasures, 9p and a Birthday Star sticker.
+- **Preview:** the celebration also appears on 12 November 2026, so it can be tried out the day before.
+- **Separate save:** Axl's edition keeps its own save, apart from any other copy of the game in the same browser.

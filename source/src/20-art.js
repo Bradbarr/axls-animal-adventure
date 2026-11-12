@@ -219,7 +219,7 @@ function drawAxl(x, y, o = {}) {
   const dir = o.dir || 'side', wk = o.wk || 0, sw = wk ? Math.round(Math.sin(wk * 14) * 2) : 0, pose = o.pose || '';
   const cr = pose === 'search' ? 3 : 0, hop = pose === 'cheer' ? -Math.abs(Math.round(Math.sin((o.t || 0) * 10) * 3)) : 0;
   g.save(); g.translate(x, y + hop); if (o.flip) g.scale(-1, 1);
-  const SK = '#f2c79a', SH = '#3fa34d', PA = '#3b5fa8', HAT = '#a06a35', HA2 = '#8a5a2b', BP = '#e08a2e';
+  const SK = '#f2c79a', SH = '#3fa34d', PA = '#3b5fa8', HAT = '#a06a35', HA2 = '#8a5a2b', BP = '#e08a2e', HAIR = window.RANGER_HAIR || '#6b4226';
   if (dir === 'side') {
     const air = o.air ? 2 : 0;
     px(shade(PA, -.2), -1 - sw - air, -6, 3, 6); px('#3a2a1a', -1 - sw - air, -2, 4, 2);
@@ -231,7 +231,7 @@ function drawAxl(x, y, o = {}) {
     else if (pose === 'cheer') { px(SH, 1, -21, 2, 6); px(SK, 1, -23, 2, 2); }
     else if (pose === 'use') { const a = Math.round(Math.sin((o.t || 0) * 30) * 2); px(SH, 2, -14 + a, 5, 2); px(SK, 7, -14 + a, 2, 2); }
     else { px(shade(SH, -.15), 0 - sw, -15, 2, 6); px(SK, 0 - sw, -9, 2, 2); }
-    box(-4, -24 + cr, 8, 8, SK); px('#6b4226', -4, -24 + cr, 2, 6); px('#6b4226', -4, -24 + cr, 6, 1);
+    box(-4, -24 + cr, 8, 8, SK); px(HAIR, -4, -24 + cr, 2, 6); px(HAIR, -4, -24 + cr, 6, 1);
     px('#16161c', 1, -21 + cr, 2, 2); px('#fff', 1, -21 + cr, 1, 1); px('#c97a5a', 2, -18 + cr, 2, 1);
     px(HA2, -6, -25 + cr, 12, 2); box(-4, -29 + cr, 8, 4, HAT); px('#3fa34d', -4, -26 + cr, 8, 1);
   } else {
@@ -240,8 +240,8 @@ function drawAxl(x, y, o = {}) {
     box(-4, -16, 9, 10, SH); px('#5a3a1a', -4, -8, 9, 1);
     px(shade(SH, -.15), -6, -15 + (sw > 0 ? 1 : 0), 2, 6); px(shade(SH, -.15), 5, -15 + (sw < 0 ? 1 : 0), 2, 6); px(SK, -6, -9, 2, 2); px(SK, 5, -9, 2, 2);
     if (back) { box(-3, -16, 7, 8, BP); px('#b86a1a', -3, -12, 7, 1); if (o.carry) { box(-3, -21, 6, 6, ANIMALS[o.carry].col); } }
-    box(-4, -24, 9, 8, back ? '#6b4226' : SK);
-    if (!back) { px('#6b4226', -4, -24, 9, 1); px('#16161c', -2, -21, 2, 2); px('#16161c', 2, -21, 2, 2); px('#fff', -2, -21, 1, 1); px('#fff', 2, -21, 1, 1); px('#c97a5a', 0, -18, 2, 1); }
+    box(-4, -24, 9, 8, back ? HAIR : SK);
+    if (!back) { px(HAIR, -4, -24, 9, 1); px('#16161c', -2, -21, 2, 2); px('#16161c', 2, -21, 2, 2); px('#fff', -2, -21, 1, 1); px('#fff', 2, -21, 1, 1); px('#c97a5a', 0, -18, 2, 1); }
     px(HA2, -6, -25, 13, 2); box(-4, -29, 9, 4, HAT); px('#3fa34d', -4, -26, 9, 1);
   }
   g.restore();
