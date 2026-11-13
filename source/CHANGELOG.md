@@ -141,6 +141,13 @@
 - **Building is easier.** A one-time starter pack (20 wood, 12 fences, 2 signs, 2 bowls), and digging ground blocks gives 2 at a time.
 - **⚡ Quick Supplies.** Every home has a button to spend 💎 treasures on what is missing: ground blocks, dens and plants, water, troughs, food and fences.
 
+### Game controller and Xbox
+- **Play with a controller.** Works with Xbox controllers (including in Microsoft Edge on an Xbox console) and other standard gamepads.
+- **In the game:** left stick or d-pad to move, **A** jump / use, **X** search / bag, **Y** hint / map, **LB / RB** change tool, **LT / RT** zoom, **☰ Menu** pause, **⧉ View** goals.
+- **In menus and questions:** the d-pad moves a yellow highlight between buttons and answers. **A** chooses, **B** goes back, and **LT / RT** scroll. Answers are read aloud as you move onto them.
+- **Pointing hand:** the right stick moves a 👆 hand for painting, drawing fence boxes, tapping the map or pressing anything on screen. Hold **A** to press or drag with it.
+- The touch buttons hide while a controller is in use.
+
 ### Axl's edition
 - **Ranger Axl has blonde hair.**
 - **Birthday party (13 November):** opening the game shows a big "HAPPY 9TH BIRTHDAY AXL!" (the number goes up each year) with "love from Uncle Brad". It has a cake with one candle for each year, balloons and confetti. Elephant, fox, kangaroo, puffin and lion cubs walk in and dance around Ranger Axl in his party hat. A brass fanfare with party horns plays and the message is read out loud.
